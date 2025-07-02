@@ -14,6 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head>
+        <link rel="icon" href="/barbershop-icon.png" />
+      </head>
+
       <body
         className={`${monserrat.className} antialiased`}
       >
